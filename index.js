@@ -136,6 +136,27 @@ bot.on("sticker", (ctx) => {
   ctx.reply(`File ID стикера:\n<code>${sticker.file_id}</code>`, { parse_mode: "HTML" });
 });
 
+// Для получения custom_emoji_id — отправь сообщение с кастомным эмодзи боту
+bot.on("message", (ctx) => {
+  const msg = ctx.message;
+  
+  // Проверяем есть ли кастомные эмодзи в сообщении
+  if (msg.entities) {
+    const customEmojis = msg.entities.filter(e => e.type === "custom_emoji");
+    
+    if (customEmojis.length > 0) {
+      console.log(`[bot] Received custom emojis:`, customEmojis);
+      
+      let response = "Custom Emoji IDs:\n\n";
+      customEmojis.forEach((emoji, i) => {
+        response += `${i + 1}. <code>${emoji.custom_emoji_id}</code>\n`;
+      });
+      
+      ctx.reply(response, { parse_mode: "HTML" });
+    }
+  }
+});
+
 // /start
 bot.start(async (ctx) => {
   console.log(`[bot] /start from ${ctx.from.id} (@${ctx.from.username})`);
