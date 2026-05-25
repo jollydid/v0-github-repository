@@ -51,19 +51,19 @@ module.exports = [
   },
   {
     type: "text",
-    text: `🎁<b>ФРИБЕТ</b>
+    text: `<tg-emoji emoji-id="5372947651425764830">🎁</tg-emoji><tg-emoji emoji-id="5370788674445276636">🎁</tg-emoji><tg-emoji emoji-id="5370770966295118416">🎁</tg-emoji><tg-emoji emoji-id="5372866038457206164">🎁</tg-emoji><tg-emoji emoji-id="5370874058395123571">🎁</tg-emoji>
 
-Ссылка 🔗 на регистрацию + фрибет на первый депозит здесь
+<a href="https://refpa47977.com/L?tag=s_592435m_18637c_&site=592435&ad=18637">Ссылка</a> 🔗 на регистрацию + фрибет на первый депозит здесь
 Промокод <code>vernyachek</code>
 
-<b>888STARZ</b>
+<tg-emoji emoji-id="5371029076649737326">🎰</tg-emoji><tg-emoji emoji-id="5371092977173168655">🎰</tg-emoji><tg-emoji emoji-id="5371090271343771906">🎰</tg-emoji><tg-emoji emoji-id="5373163061215527094">🎰</tg-emoji><tg-emoji emoji-id="5370967628552634439">🎰</tg-emoji>
 
-Ссылка 🔗 на регистрацию + фрибет на первый депозит 💸 до 1.500$ (возможно играть ребятам, кто географически находится в Европе)
+<a href="https://top100bonus.com/L?tag=d_2785873m_41455c_&site=2785873&ad=41455">Ссылка</a> 🔗 на регистрацию + фрибет на первый депозит 💸 до 1.500$ (возможно играть ребятам, кто географически находится в Европе)
 Промокод <code>PLUS100</code>
 
-🎁<b>ФРИБЕТ</b>
+<tg-emoji emoji-id="5373152186358331823">🎁</tg-emoji><tg-emoji emoji-id="5370568372687769192">🎁</tg-emoji><tg-emoji emoji-id="5370694580301757826">🎁</tg-emoji><tg-emoji emoji-id="5373328022319433204">🎁</tg-emoji><tg-emoji emoji-id="5370770468078909916">🎁</tg-emoji>
 
-Ссылка 🔗 на регистрацию + фрибет до 2.000$ (удобный вариант для жителей Украины и стран СНГ)
+<a href="https://w-one71177.com/v3/aggressive-casino?p=5dai">Ссылка</a> 🔗 на регистрацию + фрибет до 2.000$ (удобный вариант для жителей Украины и стран СНГ)
 Промокод <code>Vernyachek2022</code>`,
     delay: TWO_HOURS, // пауза 2 часа до третьего шага
   },
