@@ -9,6 +9,7 @@
 
 const TWO_MINUTES = 2 * 60 * 1000; // 2 минуты в миллисекундах
 const TWO_HOURS = 2 * 60 * 60 * 1000; // 2 часа в миллисекундах
+const TWELVE_HOURS = 12 * 60 * 60 * 1000;
 
 module.exports = [
   // === ШАГ 1: Кружок + текст + кнопка (сразу при заявке) ===
@@ -53,8 +54,8 @@ module.exports = [
     type: "text",
     text: `<tg-emoji emoji-id="5372947651425764830">🎁</tg-emoji><tg-emoji emoji-id="5370788674445276636">🎁</tg-emoji><tg-emoji emoji-id="5370770966295118416">🎁</tg-emoji><tg-emoji emoji-id="5372866038457206164">🎁</tg-emoji><tg-emoji emoji-id="5370874058395123571">🎁</tg-emoji>
 
-<a href="https://refpa47977.com/L?tag=s_592435m_18637c_&site=592435&ad=18637">Ссылка</a> 🔗 на регистрацию + фрибет на первый депозит здесь
-Промокод <code>vernyachek</code>
+<a href="https://refpa3665.com/L?tag=d_5458441m_2170c_Vernyachek2026">Ссылка</a> 🔗 на регистрацию + фрибет на первый депозит здесь
+Промокод <code>Vernyachek2026</code>
 
 <tg-emoji emoji-id="5371029076649737326">🎰</tg-emoji><tg-emoji emoji-id="5371092977173168655">🎰</tg-emoji><tg-emoji emoji-id="5371090271343771906">🎰</tg-emoji><tg-emoji emoji-id="5373163061215527094">🎰</tg-emoji><tg-emoji emoji-id="5370967628552634439">🎰</tg-emoji>
 
@@ -65,7 +66,7 @@ module.exports = [
 
 <a href="https://w-one71177.com/v3/aggressive-casino?p=5dai">Ссылка</a> 🔗 на регистрацию + фрибет до 2.000$ (удобный вариант для жителей Украины и стран СНГ)
 Промокод <code>Vernyachek2022</code>`,
-    delay: TWO_HOURS, // пауза 2 часа до третьего шага
+    delay: TWELVE_HOURS, // пауза 2 часа до третьего шага
   },
 
   // === ШАГ 3: Кружок + текст + кнопка (через 2 часа после офферов) ===
